@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'HelloWorld';
+  imageUrl = "../assets/bridgelabz-logo.png";
 
   /** One way data binding. */
   ngOnInit() : void {
