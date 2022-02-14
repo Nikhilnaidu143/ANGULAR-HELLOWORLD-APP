@@ -1,8 +1,13 @@
 <div>
   <!-- one way binding. -->
-  <h1>{{this.title}}</h1>
+  <h1>Hello {{this.userName}} from BridgeLabz.</h1>
 
   <!-- property binding. -->
   <img [src]="imageUrl" (click)="onClick($event)" alt="Image is missing will upload soon.">
+</div>
+
+<div> 
+  <!-- Two way binding. -->
+  <input [(ngModel)]="userName">  
 </div>
 <router-outlet></router-outlet>

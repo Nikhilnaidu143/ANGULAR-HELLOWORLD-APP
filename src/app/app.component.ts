@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'HelloWorld';
   imageUrl = "../assets/bridgelabz-logo.png";
   siteUrl = "https://www.bridgelabz.com/";
+  userName : string;
 
   /** One way data binding. */
   ngOnInit() : void {
